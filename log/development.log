@@ -1,0 +1,97 @@
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-06 11:57:30) [GET]
+
+ActionView::MissingTemplate (Missing template home/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-11-06 11:57:52) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PageController#page (for 127.0.0.1 at 2010-11-06 11:57:57) [GET]
+  Parameters: {"page"=>"pepe"}
+
+ActionView::MissingTemplate (Missing template page/pepe.erb in view path app/views):
+  app/controllers/page_controller.rb:4:in `page'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PageController#page (for 127.0.0.1 at 2010-11-06 11:58:18) [GET]
+  Parameters: {"page"=>"pepe"}
+
+ActionView::MissingTemplate (Missing template page/pepe.erb in view path app/views):
+  app/controllers/page_controller.rb:4:in `page'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#page (for 127.0.0.1 at 2010-11-06 11:58:40) [GET]
+  Parameters: {"page"=>"pepe"}
+
+ActionView::MissingTemplate (Missing template pages/pepe.erb in view path app/views):
+  app/controllers/pages_controller.rb:4:in `page'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#page (for 127.0.0.1 at 2010-11-06 11:58:56) [GET]
+  Parameters: {"page"=>"pepe"}
+
+ActionView::MissingTemplate (Missing template pages/pepe.erb in view path app/views):
+  app/controllers/pages_controller.rb:4:in `page'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#page (for 127.0.0.1 at 2010-11-06 11:58:57) [GET]
+  Parameters: {"page"=>"pepe"}
+
+ActionView::MissingTemplate (Missing template pages/pepe.erb in view path app/views):
+  app/controllers/pages_controller.rb:4:in `page'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#page (for 127.0.0.1 at 2010-11-06 11:59:36) [GET]
+  Parameters: {"page"=>"pepe"}
+Rendering pages/pepe
+Completed in 277ms (View: 274 | 200 OK [http://localhost/pepe]
+
+
+Processing PagesController#page (for 127.0.0.1 at 2010-11-06 12:00:38) [GET]
+  Parameters: {"page"=>"pepe"}
+Rendering pages/pepe
+
+ActionView::TemplateError (Illegal nesting: nesting within a header command is illegal.) on line #2 of app/views/pages/pepe.html.haml:
+1: !!! 5
+2:   %head
+3:     %title Yeah!!
+4:   %body
+5:     %header
+
+    app/views/pages/pepe.html.haml:2
+    haml (3.0.13) lib/haml/precompiler.rb:868:in `render_doctype'
+    haml (3.0.13) lib/haml/precompiler.rb:272:in `process_line'
+    haml (3.0.13) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.13) lib/haml/engine.rb:121:in `initialize'
+    haml (3.0.13) rails/./lib/haml/template/plugin.rb:29:in `new'
+    haml (3.0.13) rails/./lib/haml/template/plugin.rb:29:in `compile'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/pages_controller.rb:4:in `page'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (104.4ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#page (for 127.0.0.1 at 2010-11-06 12:00:50) [GET]
+  Parameters: {"page"=>"pepe"}
+Rendering pages/pepe
+Completed in 17ms (View: 14 | 200 OK [http://localhost/pepe]
