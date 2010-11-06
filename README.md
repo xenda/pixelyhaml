@@ -1,4 +1,4 @@
-Welcome The Adventures of Captain Awesome and this AWESOME App
+Welcome to The Adventures of Captain Awesome and this AWESOME App
 ==============================================================
 
 Hi Captain AwesomeI have a tons of HTMLs. How do I Hamelize them?
