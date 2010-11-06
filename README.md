@@ -1,7 +1,7 @@
 Welcome to The Adventures of Captain Awesome and this AWESOME App
 ==============================================================
 
-Hi Captain AwesomeI have a tons of HTMLs. How do I Hamelize them?
+Hi Captain Awesome, I have a tons of HTMLs. How do I Hamelize them?
 -----------------------------------------------------------------
 
 1. Clone it:
