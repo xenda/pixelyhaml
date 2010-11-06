@@ -7,8 +7,8 @@ Hi Captain Awesome, I have a tons of HTMLs. How do I Hamelize them?
 1. Clone it:
   $ git clone http://github.com/xenda/pixelyhaml.git
 2. Add your HTMLs to the app/views/pages folder
-3. Add .erb to all their names
-  my_old_boring_index.html to my_old_boring_index.html.erb
+3. Add .erb to all their names:
+  $ my_old_boring_index.html to my_old_boring_index.html.erb
 4. Run this script to update them
   $ ruby html2haml.rb
 
@@ -30,4 +30,4 @@ Can I ever be as awesome as you?
 
 Well, lad, you sure can. You sure can
 
-* flies to the other galaxy to help more kids
+* Captain Awesome flies to another galaxy to help more kids and save the day
