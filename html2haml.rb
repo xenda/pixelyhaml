@@ -4,7 +4,8 @@ class ToHaml
   end
 
   def convert!
-    Dir["#{@path}/**/*.erb"].each do |file|
+
+    Dir["#{@path}/**/*.{erb|html}"].each do |file|
       system("echo 'converting #{file}'")
       system("html2haml -ex #{file} #{file.gsub(/\.erb$/, '.haml')}")
     end
